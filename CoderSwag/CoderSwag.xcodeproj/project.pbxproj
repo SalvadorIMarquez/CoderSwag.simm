@@ -10,6 +10,9 @@
 		F61BF5B8227CA66A00F7F14F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5B7227CA66A00F7F14F /* CategoryCell.swift */; };
 		F61BF5BB227CA90A00F7F14F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5BA227CA90A00F7F14F /* Category.swift */; };
 		F61BF5BE227CAAD600F7F14F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5BD227CAAD600F7F14F /* DataService.swift */; };
+		F61BF5C0227CCD2C00F7F14F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5BF227CCD2C00F7F14F /* ProductCell.swift */; };
+		F61BF5C2227CCF2A00F7F14F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5C1227CCF2A00F7F14F /* Product.swift */; };
+		F61BF5C4227CD85B00F7F14F /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61BF5C3227CD85B00F7F14F /* ProductsVC.swift */; };
 		F61F892A227C9A190002817D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F8929227C9A190002817D /* AppDelegate.swift */; };
 		F61F892C227C9A190002817D /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F892B227C9A190002817D /* CategoriesVC.swift */; };
 		F61F892F227C9A190002817D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61F892D227C9A190002817D /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		F61BF5B7227CA66A00F7F14F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		F61BF5BA227CA90A00F7F14F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F61BF5BD227CAAD600F7F14F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F61BF5BF227CCD2C00F7F14F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		F61BF5C1227CCF2A00F7F14F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F61BF5C3227CD85B00F7F14F /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		F61F8926227C9A190002817D /* CoderSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61F8929227C9A190002817D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F61F892B227C9A190002817D /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F61F892B227C9A190002817D /* CategoriesVC.swift */,
+				F61BF5C3227CD85B00F7F14F /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				F61BF5B7227CA66A00F7F14F /* CategoryCell.swift */,
+				F61BF5BF227CCD2C00F7F14F /* ProductCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				F61BF5BA227CA90A00F7F14F /* Category.swift */,
+				F61BF5C1227CCF2A00F7F14F /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,11 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61BF5C4227CD85B00F7F14F /* ProductsVC.swift in Sources */,
 				F61F892C227C9A190002817D /* CategoriesVC.swift in Sources */,
 				F61F892A227C9A190002817D /* AppDelegate.swift in Sources */,
 				F61BF5B8227CA66A00F7F14F /* CategoryCell.swift in Sources */,
 				F61BF5BB227CA90A00F7F14F /* Category.swift in Sources */,
+				F61BF5C0227CCD2C00F7F14F /* ProductCell.swift in Sources */,
 				F61BF5BE227CAAD600F7F14F /* DataService.swift in Sources */,
+				F61BF5C2227CCF2A00F7F14F /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
