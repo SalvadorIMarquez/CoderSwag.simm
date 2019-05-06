@@ -16,6 +16,7 @@ class DataService{
         Category(title: "HOODIES", imageName: "hoodies.png"),
         Category(title: "HATS", imageName: "hats.png"),
         Category(title: "DIGITAL", imageName: "digital.png")
+        
     ]
     
     private let hats = [

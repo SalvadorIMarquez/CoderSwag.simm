@@ -36,13 +36,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="qtl-XR-dDC">
-                                                    <rect key="frame" x="0.0" y="3.3333333333333286" width="320" height="170"/>
+                                                    <rect key="frame" x="0.0" y="3.3333333333333286" width="414" height="170"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="170" id="Tzr-z1-S4h"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqh-Kb-ocF">
-                                                    <rect key="frame" x="116" y="75.333333333333343" width="88" height="26"/>
+                                                    <rect key="frame" x="163" y="75.333333333333343" width="88" height="26"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="26" id="Zhd-Kq-C2I"/>
                                                         <constraint firstAttribute="width" constant="88" id="qj3-8l-Ivr"/>
@@ -105,7 +105,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="juC-yg-8IB">
-                                <rect key="frame" x="0.0" y="64.666666666666686" width="414" height="743.33333333333326"/>
+                                <rect key="frame" x="10" y="64.666666666666686" width="414" height="743.33333333333326"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qiU-6y-eJB">
                                     <size key="itemSize" width="184" height="252"/>
@@ -169,11 +169,11 @@
                         <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="juC-yg-8IB" secondAttribute="bottom" id="AKf-rB-pvk"/>
-                            <constraint firstItem="juC-yg-8IB" firstAttribute="leading" secondItem="kiz-Jn-S5I" secondAttribute="leading" id="IZ8-nb-liC"/>
+                            <constraint firstItem="juC-yg-8IB" firstAttribute="leading" secondItem="kiz-Jn-S5I" secondAttribute="leading" constant="10" id="IZ8-nb-liC"/>
                             <constraint firstItem="p9R-3v-aTv" firstAttribute="leading" secondItem="kiz-Jn-S5I" secondAttribute="leading" constant="20" id="KHn-6g-Xtg"/>
                             <constraint firstItem="p9R-3v-aTv" firstAttribute="top" secondItem="kiz-Jn-S5I" secondAttribute="top" constant="25" id="MO3-Q8-YHa"/>
                             <constraint firstItem="juC-yg-8IB" firstAttribute="top" secondItem="p9R-3v-aTv" secondAttribute="bottom" constant="16" id="hqR-Vl-FjX"/>
-                            <constraint firstItem="juC-yg-8IB" firstAttribute="trailing" secondItem="kiz-Jn-S5I" secondAttribute="trailing" id="j0A-Op-Lfd"/>
+                            <constraint firstItem="juC-yg-8IB" firstAttribute="trailing" secondItem="kiz-Jn-S5I" secondAttribute="trailing" constant="10" id="j0A-Op-Lfd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kiz-Jn-S5I"/>
                     </view>
